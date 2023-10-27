@@ -30,7 +30,8 @@
 
 <body>
     <p class=success1> You Order has been placed sucessfully!!!</p>
-    <img src="order.png"alt="orderimage">
+     <iframe width="560" height="315" src="https://media.istockphoto.com/id/1396245389/vector/order-confirmed-concept.jpg?s=612x612&w=0&k=20&c=k_BiEGt_01Srsy5z-88OArwoDqPXPYJE7v2XmfnjqeI=" frameborder="0" allowfullscreen></iframe>
+      </iframe>
     <div>
         <p class=success2>click Here to go to the <a href="index.php">Home Page</a></p>
     </div>
