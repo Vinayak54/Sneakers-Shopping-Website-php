@@ -30,6 +30,7 @@
 
 <body>
     <p class=success1> You Order has been placed sucessfully!!!</p>
+    <img src="order.png"alt="orderimage">
     <div>
         <p class=success2>click Here to go to the <a href="index.php">Home Page</a></p>
     </div>
