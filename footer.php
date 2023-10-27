@@ -10,7 +10,7 @@
                 <p class="font-size-14 font-rale text-white-50">Your complete shopee for trendy, stylish sneakers under one roof.</p>
             </div>
             <div class="col-lg-4 col-12">
-                <h4 class="font-rubik font-size-20">Newslatter</h4>
+                <h4 class="font-rubik font-size-20">Newsletter</h4>
                 <form class="form-row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Email *">
@@ -34,8 +34,8 @@
                 <div class="d-flex flex-column flex-wrap">
                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatters</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wishlist</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
                 </div>
             </div>
         </div>
