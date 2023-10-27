@@ -140,7 +140,7 @@ span.price {
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
             <input type="text" id="fname" name="firstname" >
-            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <label for="email"><i class="fa fa-envelope"></i> Email address</label>
             <input type="text" id="email" name="email" >
             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
             <input type="text" id="adr" name="address" >
@@ -174,11 +174,11 @@ span.price {
             <input type="text" id="cname" name="cardname" >
             <label for="ccnum">Credit card number</label>
             <input type="text" id="ccnum" name="cardnumber" >
-            <label for="expmonth">Exp Month</label>
+            <label for="expmonth">Expiry Month</label>
             <input type="text" id="expmonth" name="expmonth" >
             <div class="row">
               <div class="col-50">
-                <label for="expyear">Exp Year</label>
+                <label for="expyear">Expiry Year</label>
                 <input type="text" id="expyear" name="expyear" >
               </div>
               <div class="col-50">
