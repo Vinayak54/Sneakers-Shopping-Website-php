@@ -1,29 +1,42 @@
-<?php
-ob_start();
-// include header.php file
-include ('header.php');
-?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Profile Page</title>
 </head>
 <body>
-    <h2>Login</h2>
-    <form method="post" action="process_login.php">
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" required><br><br>
+    <h1>Welcome to Your Profile Page</h1>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required><br><br>
+    <?php
+    // You can simulate a user's information without authentication for this example.
+    $user = [
+        'username' => 'JohnDoe',
+        'email' => 'johndoe@example.com',
+        // Add more user information as needed.
+    ];
+    ?>
 
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" required><br><br>
+    <h2>Your Profile Information:</h2>
+    <p>Username: <?php echo $user['username']; ?></p>
+    <p>Email: <?php echo $user['email']; ?></p>
+    <!-- Add more user information as needed. -->
 
-        <label for="dob">Date of Birth:</label>
-        <input type="date" name="dob" id="dob" required><br><br>
+    <h2>Order History:</h2>
+    <!-- Display the user's order history. You can simulate this information here. -->
 
-        <input type="submit" value="Login">
+    <h2>Edit Profile:</h2>
+    <!-- Form to update user profile information. This won't actually update a database. -->
+    <form action="#" method="post">
+        <!-- Include input fields for updating user information, e.g., username, email, password, etc. -->
+        <!-- Make sure to validate and sanitize user input. -->
+        <input type="text" name="new_username" placeholder="New Username">
+        <input type="email" name="new_email" placeholder="New Email">
+        <input type="password" name="new_password" placeholder="New Password">
+        <input type="password" name="confirm_password" placeholder="Confirm Password">
+        <button type="submit">Update Profile</button>
     </form>
+
+    <h2>Logout:</h2>
+    <!-- In a real eCommerce website, you should use authentication for logging out. -->
+    <p><a href="logout.php">Logout</a></p>
 </body>
 </html>
